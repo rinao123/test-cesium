@@ -4,7 +4,7 @@ import "cesium/Build/Cesium/Widgets/widgets.css";
 
 export default class Renderer {
     init = (): void => {
-        Object.assign(window, { CESIUM_BASE_URL: "/static/cesium/" });
+        Object.assign(window, { CESIUM_BASE_URL: getStaticRes("/static/cesium/") });
         Cesium.Ion.defaultAccessToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJlYTIzMzUyOS1hNTFiLTQzMzQtYmUwYS02OTRlNTFhNzI0MWUiLCJpZCI6NDMyODMsImlhdCI6MTYxMjQwNDEzOX0.c_qcuv76y5cAnA9Hag2Iqpk1KbbrkwpgUUwPa6NsKqQ";
         // Initialize the Cesium Viewer in the HTML element with the "cesiumContainer" ID.
         const viewer = new Cesium.Viewer("park3d", {
