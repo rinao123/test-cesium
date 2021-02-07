@@ -137,7 +137,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/test-three/";
+/******/ 	__webpack_require__.p = "/test-cesium/";
 /******/
 /******/ 	var jsonpArray = window["webpackJsonp"] = window["webpackJsonp"] || [];
 /******/ 	var oldJsonpFunction = jsonpArray.push.bind(jsonpArray);
@@ -386,7 +386,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var D_10
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-router */ \"./node_modules/vue-router/dist/vue-router.esm-bundler.js\");\n\nvar routes = [];\nvar router = Object(vue_router__WEBPACK_IMPORTED_MODULE_0__[\"createRouter\"])({\n  history: Object(vue_router__WEBPACK_IMPORTED_MODULE_0__[\"createWebHistory\"])(\"/test-three/\"),\n  routes: routes\n});\n/* harmony default export */ __webpack_exports__[\"default\"] = (router);\n\n//# sourceURL=webpack:///./src/router/index.ts?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-router */ \"./node_modules/vue-router/dist/vue-router.esm-bundler.js\");\n\nvar routes = [];\nvar router = Object(vue_router__WEBPACK_IMPORTED_MODULE_0__[\"createRouter\"])({\n  history: Object(vue_router__WEBPACK_IMPORTED_MODULE_0__[\"createWebHistory\"])(\"/test-cesium/\"),\n  routes: routes\n});\n/* harmony default export */ __webpack_exports__[\"default\"] = (router);\n\n//# sourceURL=webpack:///./src/router/index.ts?");
 
 /***/ }),
 
@@ -410,7 +410,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var vuex
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"getStaticRes\", function() { return getStaticRes; });\nfunction getStaticRes(path) {\n  var realPath =  false ? undefined : \"/test-three/\" + path;\n  return realPath;\n}\n\n//# sourceURL=webpack:///./src/utils/commonUtil.ts?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"getStaticRes\", function() { return getStaticRes; });\nfunction getStaticRes(path) {\n  var realPath =  false ? undefined : \"/test-cesium/\" + path;\n  return realPath;\n}\n\n//# sourceURL=webpack:///./src/utils/commonUtil.ts?");
 
 /***/ }),
 
